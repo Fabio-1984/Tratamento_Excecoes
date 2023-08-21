@@ -1,0 +1,16 @@
+try:
+
+   nome = str(input("Digite o seu nome: "))
+   ano = int(input("Digite o ano do seu nascimento: "))
+   if ano >= 1922 and ano <= 2021:
+
+      print("Seu nome é: " , nome , "Sua idade em 2022 é: " , 2022 - ano)  
+  
+   else:
+    print("Ano de nascimento inválido")     
+     
+ 
+
+
+except:
+   print("O ano de nascimento não pode ser menor que 1922 e nem maior que 2022")
