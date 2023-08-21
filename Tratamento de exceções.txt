@@ -7,10 +7,11 @@ try:
       print("Seu nome é: " , nome , "Sua idade em 2022 é: " , 2022 - ano)  
   
    else:
-    print("Ano de nascimento inválido")     
+    print("O ano de nascimento não pode ser menor que 1922 e nem maior que 2022")  
      
  
 
 
 except:
-   print("O ano de nascimento não pode ser menor que 1922 e nem maior que 2022")
+   
+   print("Dado inválido")
